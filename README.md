@@ -8,4 +8,4 @@ The deployed contract with verified source code can be found at the following ad
 
 Contract | Address
 ---|---
-NotableToken | 
+NotableToken | 0xFAA0fC7B803919B091dBe5FF709b2dAbb61b93d9

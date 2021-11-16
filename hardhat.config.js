@@ -25,11 +25,14 @@ module.exports = {
   networks: {
     mainnet: {
       url: 'https://bsc-dataseed.binance.org/',
-      accounts: { mnemonic: process.env.MNEMONIC }
+      accounts: { mnemonic: process.env.MNEMONIC },
+      gasMultiplier: 1.5
     },
     testnet: {
       url: 'https://data-seed-prebsc-1-s1.binance.org:8545',
-      accounts: { mnemonic: process.env.MNEMONIC }
+      accounts: { mnemonic: process.env.MNEMONIC },
+      gas: 1700000,
+      gasMultiplier: 1.5
     }
   },
   etherscan: {
